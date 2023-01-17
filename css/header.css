@@ -1,0 +1,60 @@
+@font-face {
+  src: url(../fonts/ubuntu_med.ttf);
+  font-family: "ubuntu_med";
+}
+
+header {
+  margin-left: 30px;
+}
+.navbar {
+  height: auto;
+  margin-top: 24px;
+  font-family: "ubuntu_med";
+}
+
+.navbar .logo {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo span {
+  color: black;
+}
+
+.navbar_nav {
+  height: 50px;
+  text-decoration: none;
+}
+
+.inf {
+  color: black;
+  text-decoration: none;
+}
+
+.quota {
+  color: black;
+  text-decoration: none;
+}
+
+.sch {
+  color: black;
+  text-decoration: none;
+}
+
+.home {
+  color: red;
+  text-decoration: none;
+}
+
+.cc {
+  width: 137px;
+  height: 48px;
+  background: red;
+  border-radius: 10px;
+  color: white;
+}
+
+.text {
+  background-color: aliceblue;
+}

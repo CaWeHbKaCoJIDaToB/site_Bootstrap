@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "ubuntu_med";
+  src: url(../fonts/ubuntu_med.ttf);
+}
+
+footer {
+  margin-left: 30px;
+}
+
+.b4_1 {
+  font-family: "ubuntu_med";
+  font-size: 24px;
+}
+
+.b4_1 a {
+  color: red;
+  text-decoration: none;
+}
+
+.b4_1 a span {
+  color: black;
+}
+
+.text2 {
+  max-width: 180px;
+  min-width: 100px;
+  color: grey;
+  font-family: "ubuntu_med";
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+}
+
+.b4_2 span {
+  color: black;
+  font-family: "ubuntu_med";
+  text-decoration: none;
+}
+
+.b4_2 li {
+  list-style: none;
+  text-decoration: none;
+  color: gray;
+}
+
+.b4_2 li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.b4_3 span {
+  color: black;
+  font-family: "ubuntu_med";
+}
+
+.b4_3 li {
+  list-style: none;
+  color: gray;
+}
+
+.b4_3 li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.b4_4 span {
+  color: black;
+  font-family: "ubuntu_med";
+}
+
+.b4_4 li {
+  list-style: none;
+}
+
+.b4_4 li a {
+  text-decoration: none;
+  color: gray;
+}

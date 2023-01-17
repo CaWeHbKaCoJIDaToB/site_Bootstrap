@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "ubuntu_med";
+  src: url(../fonts/ubuntu_med.ttf);
+}
+
+main {
+  margin-left: 60px;
+}
+
+body {
+  font-family: "ubuntu_med";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 32px;
+  color: grey;
+  min-width: 400px;
+  background-color: white;
+}
+
+.space1 {
+  height: 60px;
+  width: 60px;
+}
+
+.space2 {
+  height: 60px;
+  width: 60px;
+}
+
+.block1 {
+  margin-top: 24px;
+  min-width: 380px;
+  max-width: 450px;
+}
+
+.b1_text1 {
+  font-family: "ubuntu_med";
+  font-size: 48px;
+  color: black;
+}
+
+.b1_text2 {
+  font-family: "ubuntu_med";
+  font-size: 17px;
+  line-height: 40px;
+  color: gray;
+}
+
+.GYV {
+  box-sizing: border-box;
+  max-width: 168px;
+  min-width: 150px;
+  height: 48px;
+  background: red;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  font-family: "ubuntu_med";
+  font-size: 15px;
+}
+
+.LM {
+  box-sizing: border-box;
+  max-width: 168px;
+  min-width: 150px;
+  height: 48px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+  font-family: "ubuntu_med";
+  font-size: 15px;
+}
+
+.qwe {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.block2 {
+  margin-left: 345px;
+}
+
+.cube1 {
+  height: 180px;
+  width: 184px;
+  background-color: #ffe1d8;
+  border-radius: 10px;
+}
+
+.cube2 {
+  height: 180px;
+  width: 184px;
+  background-color: #ffe1d8;
+
+  border-radius: 10px;
+}
+
+.cube3 {
+  height: 180px;
+  width: 184px;
+  background-color: #ffe1d8;
+
+  border-radius: 10px;
+}
+
+.cube4 {
+  height: 180px;
+  width: 184px;
+  background-color: #ffe1d8;
+
+  border-radius: 10px;
+}
+
+.block3_1 {
+  width: 245px;
+  min-width: 190px;
+  height: 179px;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.233);
+  border-radius: 15px;
+  font-family: "ubuntu_med";
+  font-size: 12px;
+  line-height: 12px;
+  color: grey;
+  margin-left: 24px;
+}
+
+.block3_2 {
+  width: 245px;
+  min-width: 190px;
+  max-width: 245px;
+  height: 112px;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.233);
+  border-radius: 15px;
+  font-family: "ubuntu_med";
+  font-size: 12px;
+  line-height: 12px;
+  color: grey;
+  margin-top: 66px;
+  margin-left: 20px;
+}
+
+.block3_3 {
+  width: 245px;
+  min-width: 190px;
+  max-width: 245px;
+  height: 112px;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.233);
+  border-radius: 15px;
+  font-family: "ubuntu_med";
+  font-size: 12px;
+  line-height: 12px;
+  color: grey;
+  margin-top: 66px;
+  margin-left: 20px;
+}
+
+.zz01 div {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  left: 100px;
+  top: 45px;
+}
+
+.b3_1_text1 {
+  color: black;
+  font-family: "ubuntu_med";
+  font-size: 17px;
+  line-height: 12px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.b3_1_text2 {
+  color: gray;
+  line-height: 12px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.b3_2_text1 {
+  color: black;
+  font-family: "ubuntu_med";
+  font-size: 17px;
+  line-height: 12px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.b3_2_text2 {
+  color: gray;
+  line-height: 12px;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.b3_3_text1 {
+  color: black;
+  font-family: "ubuntu_med";
+  font-size: 17px;
+  line-height: 12px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.b3_3_text2 {
+  color: gray;
+  line-height: 12px;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.button_GV {
+  display: flex;
+  justify-content: center;
+}
+
+.GV {
+  padding: 12px 24px;
+  gap: 10px;
+  width: 140px;
+  height: 40px;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid red;
+  cursor: pointer;
+  color: red;
+}
+
+.GV:hover {
+  background-color: red;
+  color: white;
+}
+
+.text_test {
+  color: rgb(255, 255, 255);
+}
+
+.text_test1 {
+  color: red;
+}
+
+.ellipse {
+  height: 100px;
+  max-height: 100px;
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
+
+.ellipse1 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+
+.ellipse2 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse3 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse4 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse5 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse6 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse7 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse8 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse9 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse10 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse11 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
+.ellipse12 {
+  background-color: #ffe1d8;
+  clip-path: circle(50%);
+  height: 10px;
+  width: 10px;
+}
